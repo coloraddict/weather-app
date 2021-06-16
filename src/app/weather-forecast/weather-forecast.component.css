@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .topnav li.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .topnav-centered li {
+    display: inline-block;
+    padding: 6px 20px;
+    border: 1px solid #cccccc;
+    border-left: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .topnav-centered li:hover {
+    color: #333333;
+    background-color: #ebebeb;
+    border-color: #adadad;
+  }
+
+  .topnav-centered li:nth-child(1) {
+    border-left: 1px solid #cccccc;
+  }
+
+  .topnav-centered li a {
+    color: #333333;
+    text-decoration: none;
+  }
+
+  .cityHeader {
+    padding: 15px 10px;
+    color: #fff;
+  }
+
+  .cityHeader h3 {
+    display: inline;
+    margin-right: 15px;
+  }
+
+  .sunrise {
+    padding: 3px;
+    background-color: yellow;
+    color: black;
+  }
+
+  .sunset {
+    padding: 3px;
+    background-color: black;
+    color: yellow;
+  }
+
+  .latlong {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    line-height: 1;
+    color: green;
+  }
+
+  .modal {
+    background-color: rgba(0,0,0,.7);
+  }
+
+  .modal-dialog ul li {
+    list-style-type: none;
+  }
+
+  .modal-dialog {
+    max-width: 700px;
+  }
+  
+  /* Responsive navigation menu (for mobile devices) */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+    
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }

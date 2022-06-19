@@ -79,6 +79,10 @@ body {
   .modal-dialog {
     max-width: 700px;
   }
+
+  .card-title {
+    color: red;
+  }
   
   /* Responsive navigation menu (for mobile devices) */
   @media screen and (max-width: 600px) {
